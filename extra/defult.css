@@ -1,0 +1,185 @@
+/*
+Design by Farshid
+student ITPH 2017
+/*=========== start =========*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*=========== general =========*/
+body {
+	margin-top: 50px;
+	padding: 0;
+        background: url(../images/back02.jpg );
+       	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/*=========== header and top bar =========*/
+#header {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+#topbar {
+    width: 90%;
+    height: 36px;
+    background: darkgrey;
+    float: left;
+    border-top: 3px solid white;
+}
+.topmenue{
+    float: left;
+    margin: 0 20px;
+}
+.topmenue li {
+    float: left;
+    padding:10px 5px;
+}
+.topmenue li a {
+    color: black;
+    padding: 10px 10px;
+}
+.topmenue li a:hover {
+    background-color: background;  
+}
+.topmenue li:nth-child(1) a {
+    background-color: background;  
+}
+#logobar{
+    width: 90%;
+    height: 200px;  
+    background:  background url(../images/finnal.gif) no-repeat right top ;
+}
+#itphgroup {
+    width: 440px;
+    height: 100px;
+    margin: 5 auto;
+}
+.itph{
+    float: left;
+    padding: 20px;
+    margin: 10 px 20px 10 px 40px;
+    color:  white;
+}
+.itphmotto {
+    clear: both;
+    padding: 5px 5px;
+    margin: 5px 10px 5px 20px;
+    color: black;
+}
+/*=========== Side bar =========*/
+#coplex{
+    width: 90%;
+    height: auto;
+    margin: 5px auto; 
+}
+#sidebar {
+    float: left;
+    width: 19%;
+    margin-right: 1%;
+    height: auto;
+    background: background;    
+}
+.sidebar li{
+    margin: 0 auto;
+    padding:10px 10px;
+    font-size: 16px;
+}
+#logside {
+    padding:5px 10px;
+    font-size: 14px;
+    color: red;
+    margin: 0 40px;
+}
+#main {
+    float: left;
+    width: 70%;
+    height: auto;
+    background: background; 
+    }
+.entry {
+    padding: 0 15px;
+}
+#footer {
+    height: auto;
+    clear: both;
+    background: background;
+    color:  black;
+    font-size: 20px;
+}
+
+#legal {
+    padding-top: 10px;
+    text-align: center;
+    
+}
+#legal a {
+    color:  black;
+}
+/* Post */
+
+.post {
+	padding: 15px 15px;
+        background: background;
+}
+
+.post .title {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.post h1 {
+}
+
+.post h2 {
+	height: 32px;
+	padding: 8px 0 0 15px;
+	background: url(../images/img09.jpg) no-repeat left top;
+	font-size: 18px;
+	color: #DADADA;
+}
+
+.post .entry {
+	padding: 0 15px;
+}
+
+.post .meta {
+	padding: 15px 0 30px 0;
+	border-top: 1px dotted #D1D1D1;
+}
+
+.post .meta p {
+	margin: 0;
+	line-height: normal;
+	color: #999999;
+}
+
+.post .meta .byline {
+	float: left;
+}
+
+.post .meta .links {
+	float: right;
+}
+
+.post .meta .more {
+	padding: 0 20px 0 18px;
+	background: url(../images/img11.gif) no-repeat left center;
+}
+
+.post .meta .comments {
+	padding-left: 22px;
+	background: url(../images/img12.gif) no-repeat left center;
+}
+
+.post .meta b {
+	display: none;
+}
