@@ -30,12 +30,19 @@
                     ?>
                     </h1>
                     <div class="entry">
-                        <br>
-                        
-                        <br>		
-                        
-                        <br>
-                    </div>
+                        <div id="header" >
+                            <div id="topbar" >
+                                <div class="topmenue">
+                                    <ul>
+                                        <li><a href="3">add Book</a></li>
+                                        <li><a href="3">add categori and subcategori</a></li>
+                                        <li><a href="#">contact</a></li>
+                                        <li><a href="#">9999</a></li>
+                                        <li><a href="#">8888</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
